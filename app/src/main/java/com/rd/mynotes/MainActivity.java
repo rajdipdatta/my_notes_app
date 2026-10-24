@@ -234,30 +234,6 @@ public class MainActivity extends AppCompatActivity {
         finish();
     }
 
-/*
-    public void privacyPolicy(MenuItem item) {
-        //ask permission
-        PermissionListener privacyPolicy = new PermissionListener() {
-            @Override
-            public void onPermissionGranted() {
-                Toast.makeText(MainActivity.this, "Please wait..", Toast.LENGTH_SHORT).show();
-
-                Intent intent = new Intent(MainActivity.this, PrivacyPolicy.class);
-                startActivity(intent);
-            }
-
-            @Override
-            public void onPermissionDenied(ArrayList<String> deniedPermissions) {
-                Toast.makeText(MainActivity.this, "Check Connection Settings", Toast.LENGTH_LONG).show();
-            }
-        };
-        TedPermission.with(MainActivity.this)
-                .setPermissionListener(privacyPolicy)
-                .setPermissions(Manifest.permission.INTERNET)
-                .check();
-    }
-*/
-
     private void deleteItem(int i) {
         final int itemToDelete = i;
 
