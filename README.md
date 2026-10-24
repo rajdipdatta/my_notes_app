@@ -49,9 +49,9 @@ com.rd.mynotes/
 
 ## 📸 Screenshots
 
-| Main Screen | Note Editor | Swipe to Delete |
-| :---: | :---: | :---: |
-| *(Add screenshot)* | *(Add screenshot)* | *(Add screenshot)* |
+| Main Screen | Note Editor |                   Swipe to Delete                    |
+| :---: | :---: |:----------------------------------------------------:|
+| ![Main Screen](screenshots/main_screen.png) | ![Note Editor](screenshots/editor_screen.png) | ![Note Editor](screenshots/swipe_to_delete_note.png) |
 
 ---
 
