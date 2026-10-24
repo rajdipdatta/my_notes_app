@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<declare-styleable name="LinedEditText">
+    <!-- Custom colors and dimensions -->
+    <attr name="lineColor" format="color" />
+    <attr name="lineThickness" format="dimension" />
+    <attr name="marginLineColor" format="color" />
+</declare-styleable>
+</resources>

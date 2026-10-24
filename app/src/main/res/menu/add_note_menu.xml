@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share_icon"
+        app:showAsAction="ifRoom"
+        tools:ignore="MenuTitle"/>
+
+    <item
+        android:id="@+id/Exit"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        app:showAsAction="ifRoom"
+        android:onClick="exit"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/about_us"
+        android:title="@string/about_us" />
+
+    <item
+        android:id="@+id/rate"
+        android:title="@string/rate_us" />
+
+    <item
+        android:id="@+id/feedback"
+        android:title="@string/feedback" />
+<!--
+    <item
+        android:onClick="privacyPolicy"
+        android:id="@+id/privacyPolicy"
+        android:title="@string/privacyPolicy"/>
+-->
+</menu>

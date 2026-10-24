@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3B5945</color>
+    <color name="colorPrimaryDark">#FF6161</color>
+    <color name="colorAccent">#FFA100</color>
+    <color name="black">#FF352F2F</color>
+    <color name="white">#FFF9F9F9</color>
+    <color name="colorToolbar">#FFF0F4F1</color>">
+    <color name="colorToolbarButtonTint">#2E4756</color>
+    <color name="colorToolbarButton">#E2EAE4</color>
+</resources>

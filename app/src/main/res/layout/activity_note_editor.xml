@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_note_editor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    tools:context=".NoteEditorActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorToolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <com.rd.mynotes.LinedEditText
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lined_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+        android:paddingStart="50dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="16dp"
+        android:lineSpacingExtra="8dp"
+        app:lineColor="#2000FF00"
+        app:lineThickness="1dp"
+        app:marginLineColor="#80FF0000" />
+<!--    app:lineColor="?android:attr/textColorSecondary"  -->
+
+    <!--
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/hint"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="14dp" />
+    -->
+
+
+</RelativeLayout>

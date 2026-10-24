@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My Notes</string>
+    <string name="add_note">Add note</string>
+    <string name="about_us">About</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate</string>
+    <string name="feedback">Feedback</string>
+    <string name="privacyPolicy">Privacy policy &amp; terms</string>
+
+    <string name="splashTitle">MY NOTES</string>
+    <string name="splashSlogan">Jot down your thoughts :)</string>
+
+    <string name="copyright">© Raj Initiatives </string>
+
+    <string name="hint">Write what is in your mind</string>
+
+    <!--    content description-->
+    <string name="fabContentDesc">Floating Action button</string>
+
+    <!-- About Us Texts -->
+    <string name="about_us_text">
+        <b>My Notes</b> is a simple, intuitive note-taking application designed to bring ease to your daily routine. Created by <b>Raj Initiatives</b>, this app eliminates the digital noise to give you a straightforward, user-friendly tool for your everyday ideas.\n\n
+        Whether you need to capture a sudden burst of inspiration, manage a quick checklist, or clear out old reminders, My Notes handles it effortlessly.\n
+        • <b>Jot Down:</b> Create entries instantly with zero lag.\n
+        • <b>Review:</b> View all your saved notes in a clean, scannable list.\n
+        • <b>Manage:</b> Easily edit details or delete entries when tasks are complete.\n\n
+        We believe that everyday tools should be lightweight and distraction-free. Thank you for choosing My Notes to keep your day organized!\n\n\n
+        Version: <b>1.0</b>
+    </string>
+</resources>
